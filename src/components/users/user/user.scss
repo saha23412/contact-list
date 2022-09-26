@@ -1,0 +1,32 @@
+#inviteCondition {
+    font-size: 30px;
+    font-weight: 500;
+    transition: all ease .5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#inviteCondition:hover {
+    color: rgba(0, 0, 0, .9);
+    transition: all ease .5s;
+
+}
+
+#fullName {
+    cursor: pointer;
+    text-decoration: none;
+    transition: all ease .5s;
+    border-bottom: 0.5px solid transparent;
+    margin: 0;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-left: 0;
+    color: #182170;
+}
+
+#fullName:hover {
+    border-bottom: 0.5px solid rgba(0, 0, 0, .5);
+    transition: all ease .5s;
+}

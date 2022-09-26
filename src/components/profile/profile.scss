@@ -1,0 +1,94 @@
+.profile {
+    height: 100%;
+    position: relative;
+    .profile-favorites {
+        display: flex;
+       
+        cursor: pointer;
+
+
+        p {
+            margin-right: 10px;
+            transition: all ease .5s;
+            font-weight: 700;
+            color: rgba(0, 0, 0, 0.8);
+        }
+
+        p:hover {
+            transition: all ease .5s;
+            margin-right: 10px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+    }
+
+    .profile-info {
+        p {
+            word-break: keep-all;
+            font-weight: 700;
+            font-family: 'Merriweather', serif;
+            margin-left: 15px;
+            margin-top: 25px;
+            margin-left: 0;
+            color: #182170;
+            cursor: pointer;
+            text-align: center;
+
+            span {
+                color: #000000cc;
+
+            }
+        }
+
+    }
+
+    .profile-back {
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .profile-avatar {
+        img {
+            margin: 25px 0px 35px 0px;
+            display: block;
+            margin-right:auto;
+            margin-left: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 8px rgb(0 0 0 / 40%);
+          
+        }
+
+        p {
+            text-align: center;
+            margin-top: 15px;
+            font-weight: 700;
+            color: #182170;
+            cursor: pointer;
+        }
+    }
+    
+    .profile-bth{
+        margin-top: 35px;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        bottom: 0;
+        button{
+            background-color: #fe4e4e;
+            border-radius:15px;
+            padding: 16px 15px;
+            text-align: center;
+            cursor: pointer;
+            border: 1px solid transparent;
+            box-shadow: 0 7px 10px rgb(251 80 0 / 40%);
+            color:white;
+            transition: .5s;
+        }
+        button:hover{
+            background-color: #fd8383;
+            transition: .5s;
+        }
+      }
+}

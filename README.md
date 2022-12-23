@@ -7,10 +7,20 @@ npm start
 v16.16.0
 ## Описание проекта
 Лист контактов.Приглашение на встречу
-## Функционал 
-![Image alt](https://github.com/saha23412/imgproj/raw/main/list.jpg)
-![Image alt](https://github.com/saha23412/imgproj/raw/main/list1.jpg)
+## Функционал
+После открытия веб-приложения, у нас есть список контактов,список контактов мы получаем с JSON Placeholder.
+Приглашение можно отправить , если вы добавили в список приглашенных хотя бы одного пользователя
+![Image alt](https://github.com/saha23412/imgproj/raw/main/list.jpg)  
+   У нас есть живой поиск пользователей , он осуществляется по почте или имени пользователя.   
+![Image alt](https://github.com/saha23412/imgproj/raw/main/list1.jpg)  
+  Можем нажать на имя пользователя и получить подробную информацию,также удалить из контактов.   
 ![Image alt](https://github.com/saha23412/imgproj/raw/main/list2.jpg)
-![Image alt](https://github.com/saha23412/imgproj/raw/main/list3.jpg)
+  Если нажать на + , то пользватель добавляется в список приглашенных пользователь , если на - ,то пользователь удаляется.
+![Image alt](https://github.com/saha23412/imgproj/raw/main/list3.jpg)  
+  Если мы нажмем "отправить приглашение" , то появится оповещение об отправке приглашения.  
 ![Image alt](https://github.com/saha23412/imgproj/raw/main/list4.jpg)
-![Image alt](https://github.com/saha23412/imgproj/raw/main/list5.jpg)
+
+## Технологии 
+React,Redux-toolkit,axios,prop-types(типизация пропсов).    
+Препроцессор SCSS.
+Пользователей получаем с JSON Placeholder.

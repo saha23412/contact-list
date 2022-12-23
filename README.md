@@ -22,5 +22,5 @@ v16.16.0
 
 ## Технологии 
 React,Redux-toolkit,axios,prop-types(типизация пропсов).    
-Препроцессор SCSS.
+Препроцессор SCSS.  
 Пользователей получаем с JSON Placeholder.
